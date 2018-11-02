@@ -6,10 +6,12 @@ object CM: TCM
     DriverName = 'DataSnap'
     LoginPrompt = False
     Params.Strings = (
-      'Port=211'
+      'DriverName=DataSnap'
       'HostName=127.0.0.1'
-      'CommunicationProtocol=tcp/ip'
-      'DatasnapContext=datasnap/')
+      'Port=8020'
+      'CommunicationProtocol=http'
+      'DSAuthenticationUser=admin'
+      'DSAuthenticationPassword=admin')
     Left = 48
     Top = 40
   end

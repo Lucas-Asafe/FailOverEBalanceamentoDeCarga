@@ -4,7 +4,7 @@ interface
 
 uses
   System.SysUtils, System.Classes, uCC, Data.DbxDatasnap,
-  Data.DBXCommon, IPPeerClient, Data.DB, Data.SqlExpr;
+  Data.DBXCommon, IPPeerClient, Data.DB, Data.SqlExpr, Data.DbxHTTPLayer;
 
 type
   TCM = class(TDataModule)
